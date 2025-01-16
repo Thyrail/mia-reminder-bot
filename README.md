@@ -91,4 +91,4 @@ docker compose down
 
 ## 📄 License
 
-### This project is licensed under the [MIT-Lizenz](LICENSE).
+### This project is licensed under the [MIT-License](LICENSE).
