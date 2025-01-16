@@ -1,0 +1,10 @@
+services:
+  mia-reminder-bot:
+    image: thyrail/mia-reminder-bot:latest
+    container_name: mia-reminder-bot
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - DISCORD_MIA_BOT_CHANNEL_ID=${DISCORD_MIA_BOT_CHANNEL_ID}
+      - DISCORD_TESTS_CHANNEL_ID=${DISCORD_TESTS_CHANNEL_ID}
+      - TZ=Europe/Berlin
+    restart: unless-stopped
